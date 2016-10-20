@@ -1,0 +1,46 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+
+i {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
+/*
+
+li {
+	list-style:none;
+	display: inline-block;
+	padding: 10px;
+		a {
+		  display: inline-block;
+		  width: 100px;
+		  height: 100px;
+		  span {
+		  	position: absolute;
+		  	top: -9999em;
+		  	left: -9999em;
+		  }//span
+	}//a
+}//li
+*/
+ul{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+body{
+	background-color:black;
+}
+
+p,
+h2,
+h1{
+	color:white;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
